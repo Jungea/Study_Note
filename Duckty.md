@@ -20,3 +20,10 @@
 - -> AjaxAuthenticationProvider : 로그인 처리 - 회원조회, 비밀번호 확인, 잠금, 비밀번호 만료, ISMS(추가예정)
 	- 성공 AuthenticationSuccessHandler : JWT 생성 후 response
 	- 실패 예외 발생 AuthenticationFailureHandler : 에러메세지와 함께 실패 response
+
+
+
+- MainSecurityConfig
+	- /api/** 에 대한 시큐리티 설정
+	- ROLE_USER (ROLE_MANAGER)
+- 
