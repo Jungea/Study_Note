@@ -25,5 +25,5 @@
 
 - MainSecurityConfig
 	- /api/** 에 대한 시큐리티 설정
-	- ROLE_USER (ROLE_MANAGER)
-- 
+	- ROLE_USER 권한이 있어야 함(ROLE_MANAGER)
+	- 
