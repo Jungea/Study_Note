@@ -95,6 +95,9 @@ export default function foreach() {
 
 
 ---
+
+https://nextjs.org/learn/foundations/how-nextjs-works/
+
 ## useState
 - `const [likes, setLikes] = React.useState()`
 - 첫 번째 항목은 value
