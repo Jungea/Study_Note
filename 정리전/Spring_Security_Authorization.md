@@ -17,4 +17,12 @@ ROLE_RESOURCE - RESOURCES(MENU)
 - Authentication
 - FilterInvocation
 - AccessDecisionManager (-> AuthorizationManager)
-- 
+
+
+---
+- SecurityMetadataSource <- url방식 : FilterInvocationSecurityMetadatSource
+- <- 구현 : UrlFilterInvocationSecurityMetadataSource
+- 맵 (자원, 권한정보)
+
+
+https://github.com/spring-projects/spring-security/pull/12328/commits/3cb39c86fb9f8254b85f49d8cea9447f3327a002
