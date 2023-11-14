@@ -31,4 +31,8 @@ https://github.com/spring-projects/spring-security/pull/12328/commits/3cb39c86fb
 ---
 ## PermitAllFilter
 - 인증 및 권한심사를 할 필요가 없는 자원
-- 
+-
+
+
+multi authorizationmanager
+https://stackoverflow.com/questions/35204667/how-to-require-multiple-roles-authorities
