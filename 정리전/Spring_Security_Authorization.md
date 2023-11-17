@@ -43,3 +43,12 @@ https://stackoverflow.com/questions/35204667/how-to-require-multiple-roles-autho
 
 /admin/edit    ROLE_SUPERADMIN
 /admin/**       ROLE_ADMIN
+
+만약 반대라면 edit일때 인가 권한이 잘못된다. ROLE_ADMIN O / ROLE_SUPERADMIN X
+
+
+---
+
+
+MENU - MENU_RIGHT - ROLE
+
