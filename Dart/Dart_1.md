@@ -59,4 +59,11 @@ s2String
 
 
 - List
-	- 
+	- 여러값을 하나의 변수에 저장
+	- list[i]
+	- list.length
+	- list[i] = changeValue
+	- list.add(addValue)
+	- list.where((item) => bool)  : 필터 / Iterable
+	- list.map((item) => newValue)  : 변경 / Iterable
+	- list.reduce() : sum(첫번째값 + 두번쨰값)
