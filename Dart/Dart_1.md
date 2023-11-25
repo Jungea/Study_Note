@@ -91,4 +91,20 @@ print(dictionary.values);
 
 
 - var는 null 저장 가능
-- 기본자료형은 null 저장 불가
+- 기본자료형은 ?를 붙여야 null 저장 가능
+```Dart
+  double? number3;  //기본 null
+  print(number3);
+  number3 ??= 3;  //null일 때만 값 저장
+  print(number3);
+  number3 ??= 4;
+  print(number3);
+```
+
+- 타입비교연산자
+```Dart
+int number4 = 1;
+print(number4 is int);
+print(number4 is! int);
+```
+
