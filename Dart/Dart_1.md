@@ -57,32 +57,6 @@ s2 = String
 s2String
 ```
 
-```Dart
-void main() {
-  
-  print('===================================');
-  
-  String s1 = 'Hello';
-  String s2 = 'Dart';
-  print(s1 + s2);
-  print('${s1} ${s2}');
-  print('$s1 $s2');
-  print('${s1.runtimeType} $s2');
-  print('s2 = ${s2.runtimeType}');
-  print('s2' + '${s2.runtimeType}');
 
-  print('===================================');
-
-  int age = 20;
-  double score = 9.5;
-  bool isValid = true;
-  String name = 'Dart';
-
-  var variable1 = 'Dart';
-  print('[variable1 type] = ${variable1.runtimeType}');
-
-  var variable2 = 20;
-  print('[variable2 type] = ${variable2.runtimeType}');
-}
-
-```
+- List
+	- 
