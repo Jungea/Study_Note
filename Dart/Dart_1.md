@@ -7,6 +7,11 @@ https://dartpad.dev/
 	- var : 한번 선언하면 타입이 고정 (변경 시 에러)
 	- dynamic : 계속 다른 타입의 값을 저장 가능
 
+- final vs const
+	- 처음 선언 후 변경 불가
+	- final : 런타임 (실행될 때 확정)
+	- const : 빌드타임 (실행하지 않은 상태에서 값이 확정)
+	- DateTime.now() : 런타임
 
 ## TYPE
 ```Dart
