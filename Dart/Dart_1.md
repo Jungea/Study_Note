@@ -88,3 +88,7 @@ print(dictionary.values);
 
 - set
 	- 중복제거
+
+
+- var는 null 저장 가능
+- 기본자료형은 null 저장 불가
