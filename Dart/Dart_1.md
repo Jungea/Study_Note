@@ -60,25 +60,31 @@ s2String
 
 - List
 	- 여러값을 순서대로 저장
-	- list[i]
-	- list.length
-	- list[i] = changeValue
-	- list.add(addValue)
-	- list.where((item) => bool)  : 필터 / Iterable
-	- list.map((item) => newValue)  : 변경 / Iterable
-	- list.reduce() : sum(첫번째값 + 두번쨰값) / 리스트와 같은 타입으로 반환
-	- list.fold<int>(0, (value, element) => value + element.length)  : 리스트와 다른타입으로 반환 가능
+```Dart
+list[i]
+list.length
+list[i] = changeValue
+list.add(addValue)
+list.where((item) => bool)  : 필터 / Iterable
+list.map((item) => newValue)  : 변경 / Iterable
+list.reduce() : sum(첫번째값 + 두번쨰값) / 리스트와 같은 타입으로 반환
+list.fold<int>(0, (value, element) => value + element.length)  : 리스트와 다른타입으로 반환 가능
+```
+	
 
 - map
 	- (key, value)
-	```Dart
-	Map<String, String> dictionary = {
-		'Harry Potter': '해리 포터',
-		'Ron Weasley': '론 위즐리',
-		'Hermione Granger': '헤르미온느 그레인저',
-	  };
-	  print(dictionary['Harry Potter']);
-	  print(dictionary['Hermione Granger']);
-	  print(dictionary.keys);
-	  print(dictionary.values);
-	```
+```Dart
+Map<String, String> dictionary = {
+	'Harry Potter': '해리 포터',
+	'Ron Weasley': '론 위즐리',
+	'Hermione Granger': '헤르미온느 그레인저',
+};
+print(dictionary['Harry Potter']);
+print(dictionary['Hermione Granger']);
+print(dictionary.keys);
+print(dictionary.values);
+```
+
+- set
+	- 중복제거
