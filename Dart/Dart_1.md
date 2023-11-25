@@ -2,6 +2,12 @@
 https://dartpad.dev/
 
 
+- var vs dynamic
+	- 변수의 값을 사용해서 변수의 타입을 유추
+	- var : 한번 선언하면 타입이 고정 (변경 시 에러)
+	- dynamic : 계속 다른 타입의 값을 저장 가능
+
+
 ## TYPE
 ```Dart
 var variable1 = 'Dart';  // String variable1 = 'Dart'
