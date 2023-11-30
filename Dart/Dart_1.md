@@ -2,6 +2,17 @@
 https://dartpad.dev/
 
 
+- var vs dynamic
+	- 변수의 값을 사용해서 변수의 타입을 유추
+	- var : 한번 선언하면 타입이 고정 (변경 시 에러)
+	- dynamic : 계속 다른 타입의 값을 저장 가능
+
+- final vs const
+	- 처음 선언 후 변경 불가
+	- final : 런타임 (실행될 때 확정)
+	- const : 빌드타임 (실행하지 않은 상태에서 값이 확정)
+	- DateTime.now() : 런타임
+
 ## TYPE
 ```Dart
 var variable1 = 'Dart';  // String variable1 = 'Dart'
@@ -46,34 +57,55 @@ s2 = String
 s2String
 ```
 
+
+- List
+	- 여러값을 순서대로 저장
 ```Dart
-void main() {
-  
-  print('===================================');
-  
-  String s1 = 'Hello';
-  String s2 = 'Dart';
-  print(s1 + s2);
-  print('${s1} ${s2}');
-  print('$s1 $s2');
-  print('${s1.runtimeType} $s2');
-  print('s2 = ${s2.runtimeType}');
-  print('s2' + '${s2.runtimeType}');
+list[i]
+list.length
+list[i] = changeValue
+list.add(addValue)
+list.where((item) => bool)  : 필터 / Iterable
+list.map((item) => newValue)  : 변경 / Iterable
+list.reduce() : sum(첫번째값 + 두번쨰값) / 리스트와 같은 타입으로 반환
+list.fold<int>(0, (value, element) => value + element.length)  : 리스트와 다른타입으로 반환 가능
+```
+	
 
-  print('===================================');
+- map
+	- (key, value)
+```Dart
+Map<String, String> dictionary = {
+	'Harry Potter': '해리 포터',
+	'Ron Weasley': '론 위즐리',
+	'Hermione Granger': '헤르미온느 그레인저',
+};
+print(dictionary['Harry Potter']);
+print(dictionary['Hermione Granger']);
+print(dictionary.keys);
+print(dictionary.values);
+```
 
-  int age = 20;
-  double score = 9.5;
-  bool isValid = true;
-  String name = 'Dart';
+- set
+	- 중복제거
 
-  var variable1 = 'Dart';
-  print('[variable1 type] = ${variable1.runtimeType}');
 
-  var variable2 = 20;
-  print('[variable2 type] = ${variable2.runtimeType}');
-}
+- var는 null 저장 가능
+- 기본자료형은 ?를 붙여야 null 저장 가능
+```Dart
+  double? number3;  //기본 null
+  print(number3);
+  number3 ??= 3;  //null일 때만 값 저장
+  print(number3);
+  number3 ??= 4;
+  print(number3);
+```
 
+- 타입비교연산자
+```Dart
+int number4 = 1;
+print(number4 is int);
+print(number4 is! int);
 ```
 
 
