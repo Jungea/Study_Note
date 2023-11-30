@@ -75,3 +75,43 @@ void main() {
 }
 
 ```
+
+
+## 함수
+- 포지셔널 파라미터 : 입력된 순서대로
+- 네임드 파라미터 : 키
+	- { required int a }
+- 기본값
+	- `[ int a= 2 ] `
+- 포지셔널 파라미터 -> 네임드 파라미터
+
+- 익명 함수
+- 람다 함수
+## typedef (시그니처 정의)
+```Dart
+
+typedef Operation = void Function(int x, int y);
+
+void add(int x, int y) {
+  print('결과값 : ${x + y}');
+}
+
+void sub(int x, int y) {
+  print('결과값 : ${x - y}');
+}
+
+void calculate(int x, int y, Operation oper) {
+  oper(x, y);
+}
+
+void main() {
+  Operation oper = add;
+  oper(1, 2);
+  
+  oper = sub;
+  oper(1, 2);
+  
+  calculate(1, 2, add);
+}
+```
+
