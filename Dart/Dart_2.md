@@ -94,3 +94,15 @@ class BoyGroup extends Idol with IdolSingMixin {
   }
 }
 ```
+
+## 캐스케이드 연산자
+- ..
+```Dart
+void main() {
+  Idol blackPink = Idol('블랙핑크', 4)
+	  ..sayName()
+	  ..sayMembersCount();
+  
+}
+```
+
