@@ -63,3 +63,9 @@ Text(
 
 ### Flexible 위젯
 
+
+### Expanded 위젯
+- Flexible 위젯을 상속
+- FlexFit.tight 기본 제공
+
+
