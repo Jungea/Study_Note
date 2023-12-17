@@ -68,4 +68,5 @@ Text(
 - Flexible 위젯을 상속
 - FlexFit.tight 기본 제공
 
+### Stack 위젯
 
