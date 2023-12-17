@@ -41,4 +41,9 @@ Text(
 ### Container 위젯
 - 너비, 높이, 배경, 테두리
 
+### SizedBox 위젯
+- 일정 크기의 공간을 공백으로 둘 때
+- const 생성자 사용 시
+
+### Padding 위젯
 
