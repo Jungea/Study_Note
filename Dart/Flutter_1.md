@@ -28,4 +28,5 @@ Text(
 
 ### GestureDetector 위젯
 - 손가락 입력을 인지하는 위젯
-- 
+- [제스처 매개변수](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html)
+
