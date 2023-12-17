@@ -46,4 +46,13 @@ Text(
 - const 생성자 사용 시
 
 ### Padding 위젯
+- 내부 간격 추가
+- margin : Container위젯에 추가
 
+### SafeArea 위젯
+- 노치 디자인을 가리지 않는 화면에만 위젯을 그림
+
+---
+## 배치 관련 위젯
+
+### Row 위젯
