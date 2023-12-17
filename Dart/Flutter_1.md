@@ -15,6 +15,17 @@ Text(
 ```
 
 ---
-- 제스처 : 사용자가 키보드로 글자를 입력하는 행위 외의 모든 입력
+## 제스처 관련 위젯
+- 사용자가 키보드로 글자를 입력하는 행위 외의 모든 입력
 
-## Button 위젯
+### Button 위젯
+- TextButton : 텍스트만 있는 버튼
+- OutlinedButton : 테두리가 있는 버튼
+- ElevatedButton : 입체적으로 튀어나온 느낌의 배경이 들어간 버튼
+
+### IconButton 위젯
+- [Icons 클래스](https://api.flutter.dev/flutter/material/Icons-class.html)
+
+### GestureDetector 위젯
+- 손가락 입력을 인지하는 위젯
+- 
