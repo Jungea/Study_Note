@@ -1,0 +1,1 @@
+[웰라이프출석체크](wellife://deeplink?deep=/attendance)
