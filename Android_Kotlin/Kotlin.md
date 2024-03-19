@@ -7,7 +7,21 @@
 ### ActionBar
 - /res/values/themes
 
-### val vs var
+변수
 - val : 불변 변수
 - var : 변경 가능
-- 
+- 변수의 타입 추론
+- 정적 타입 언어
+- 스마트 캐스팅
+```kotlin
+fun plus(param: Any) {
+	if (parma is Int) {
+		print("" + (3 + parma))
+	} else if (param is Double) {
+		print("" + (6.0 + parma))
+	} else if (param is String) {
+		print("0")
+	}
+}
+```
+
