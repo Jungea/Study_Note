@@ -6,3 +6,8 @@
 
 ### ActionBar
 - /res/values/themes
+
+### val vs var
+- val : 불변 변수
+- var : 변경 가능
+- 
