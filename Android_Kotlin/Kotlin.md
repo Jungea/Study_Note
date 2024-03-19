@@ -35,3 +35,5 @@ fun function2(param: int): int {
 	return 0
 }
 ```
+- 최상위 함수 (File) : '클래스 내부'가 아닌, '클래스 외부'에 있는 함수
+- 
