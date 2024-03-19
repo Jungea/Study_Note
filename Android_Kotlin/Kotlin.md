@@ -7,7 +7,7 @@
 ### ActionBar
 - /res/values/themes
 
-변수
+### 변수
 - val : 불변 변수
 - var : 변경 가능
 - 변수의 타입 추론
@@ -25,3 +25,13 @@ fun plus(param: Any) {
 }
 ```
 
+
+### 함수
+```kotlin
+fun function1(param: int) {
+}
+
+fun function2(param: int): int {
+	return 0
+}
+```
