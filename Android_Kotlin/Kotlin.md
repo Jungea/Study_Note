@@ -36,4 +36,11 @@ fun function2(param: int): int {
 }
 ```
 - 최상위 함수 (File) : '클래스 내부'가 아닌, '클래스 외부'에 있는 함수
+
+### 필드(Field)
+- 클래스에 선언되어 있는 인스턴스 변수
+
+### 프로퍼티
+- 필드 + publid Getter 또는 Setter
 - 
+
