@@ -26,6 +26,12 @@ fun plus(param: Any) {
 ```
 
 
+### 클래스
+- getter/setter 자동 생성
+	- val : getter
+	- var : getter/setter
+- 
+
 ### 함수
 ```kotlin
 fun function1(param: int) {
