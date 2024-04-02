@@ -64,4 +64,5 @@ var nickname: String = ""
 	- 코틀린에서는 Field를 사용하지 않음
 	- Backing Field : 클래스 내부의 접근자에서 field 키워드로 프로퍼티의 값에 접근
 4. 상속
+	- 기본적으로 상속이 불가
 	- 
